@@ -1,0 +1,32 @@
+body{
+    background-image: url(./asset/bgClassic.jpg);
+    background-size: cover;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 70px;
+}
+.firstBox{
+    display: flex;
+    justify-content: center;
+}
+.firstBox input{
+    margin: 5px;
+}
+.firstBox button{
+    margin: 2px;
+}
+ol li{
+    color: aliceblue;
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+.list li button{
+    margin-left: 120px;
+}
+.list li{
+    margin: 5px 0px;
+}
