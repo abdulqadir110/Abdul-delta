@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USERS POSTs</title>
+</head>
+<body>
+    <h1>Qura Posts</h1>
+    <table border="black" style="text-align: center;">
+        <caption>All USERS</caption>
+        <tr>
+            <th>Id</th>
+            <th>Email</th>
+            <th>UserName</th>
+            <th>Edit</th>
+        </tr>
+        <% for( user of result) { %>
+        <tr>
+            <td><%= user.id  %></td>
+            <td><%= user.email%></td>
+            <td><%= user.username%></td>
+            <td>
+            <form method="get" action="/user/<%=user.id%>/edit">
+                <button>Edit username</button>
+            </form>
+            <form method="get" action="/user/<%=user.id%>/delete">
+                <button>Delete</button>
+            </form>
+            </td>
+        </tr>
+        <% } %>
+    </table>
+</body>
+</html>

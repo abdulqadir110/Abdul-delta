@@ -1,0 +1,14 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "this new and almost first project in this seniro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdul Qadir",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.6.0"
+  }
+}
